@@ -68,11 +68,14 @@ export default function About() {
             and learn new things.
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-            <p>I’ve loved learning things as long as I can remember.</p>
             <p>
-              In my free time you can find me exploring the outdoors, rock
-              climbing, playing boardgames, and reading books. I love to try new
-              things and meet new people.
+              I am a software engineer with a passion for rock climbing, problem
+              solving, and the great outdoors. My technical skills and love for
+              collaboration enable me to tackle complex challenges. In my free
+              time, I enjoy climbing and exploring the outdoors. I am always
+              seeking new opportunities to learn and grow as a software
+              engineer. Feel free to reach out if you think I could be a good
+              fit for your project or team.
             </p>
           </div>
         </div>
