@@ -1,0 +1,25 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Noah Stevens',
+  date: '2022-10-20',
+  title: 'Javascript and Bit shifting',
+  description:
+    'When bitshifting in javascript you need to be careful of the number of bits and the signed bit',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+When you’re bitshifting a number in javascript it converts the number to a 32bit signed integer from a 64 bit floating point number.
+After the action is complete it converts it back to a 64 bit floating point number. This itself is not a problem but it can cause some unexpected results.
+If you’re bitshifting a number that is larger than 32 bits it will be converted to a 32 bit number and you will lose the bits that are larger than 32 bits causing bugs in your code.
+
+## Solution
+
+To avoid this problem you can use Big Ints to store the number. This will allow you to bitshift a number that is larger than 32 bits without losing any bits.
+However, you will need to convert the number back to a 64 bit floating point number after the bitshift is complete if you want the build in javascript Math functions.
