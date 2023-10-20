@@ -6,7 +6,8 @@ import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
+import simplySeated from '@/images/logos/SimplySeated.png'
+import chadsLogo from '@/images/logos/chadslogo.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -181,7 +182,7 @@ function Resume() {
     {
       company: 'Simply Seated',
       title: 'Software Engineer',
-      logo: logoAirbnb,
+      logo: simplySeated,
       start: 'March 2023',
       end: {
         label: 'Present',
@@ -191,7 +192,7 @@ function Resume() {
     {
       company: "Chad's",
       title: 'Manage & Server',
-      logo: logoAirbnb,
+      logo: chadsLogo,
       start: '2017',
       end: '2021',
     },
