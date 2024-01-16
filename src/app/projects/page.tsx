@@ -11,6 +11,15 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
+    name: 'Movie Ranker',
+    description: 'Rank Movies using an elo system',
+    link: {
+      href: 'https://github.com/Gravender/movie_ranker',
+      label: 'github.com',
+    },
+    logo: logoCosmos,
+  },
+  {
     name: 'AI Games',
     description: 'Exploring algorithms and data structures',
     link: {
