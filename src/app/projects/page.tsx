@@ -11,6 +11,15 @@ import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
+    name: 'Board Game',
+    description: 'Board Game Match Tracker',
+    link: {
+      href: 'https://github.com/Gravender/boardgames',
+      label: 'github.com',
+    },
+    logo: logoPlanetaria,
+  },
+  {
     name: 'Movie Ranker',
     description: 'Rank Movies using an elo system',
     link: {

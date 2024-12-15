@@ -154,7 +154,7 @@ function Resume() {
       company: 'Simply Seated',
       title: 'Software Engineer',
       logo: simplySeated,
-      start: 'March 2023',
+      start: 'Feb 2023',
       end: 'Nov 2023',
     },
     {
